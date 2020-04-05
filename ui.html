@@ -2,6 +2,7 @@
 <html>
 <head>
 	<title>ToDo List</title>
+	<link rel="stylesheet" type="text/css" href="css/all.min.css">
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
 	<link rel="stylesheet" type="text/css" href="style.css">
 </head>
@@ -25,7 +26,7 @@
       					<div class="form-group">
     						    <label class="label-text" for="category-options">CATEGORY</label>
     							<select class="form-control" id="category-options">
-      								<option>Choose a category</option>
+      								<option selected disabled="">Choose a category</option>
       								<option>SCHOOL</option>
       								<option>WORK</option>
       								<option>3</option>
@@ -43,6 +44,10 @@
 
 
       	    <section class="add-delete-btns-container">
+      	    	<div >
+      	    		<button type="button" class="btn btn-dark"><i class="fas fa-plus mg5px"></i> ADD TASK</button>
+      	    	    <button type="button" class="btn btn-danger"><i class="far mg5px fa-trash-alt"></i> DELETE</button>
+      	    	</div>
       	    	
       	    </section>
 
