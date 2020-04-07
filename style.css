@@ -50,6 +50,9 @@
     font-family: sans-serif;
     font-weight: 550;
 }
+.add-delete-btns-container div button{
+	margin:0.8rem;
+}
 .btn-dark{
      /*margin-right:10%;*/
      /*width: 5rem;*/
@@ -61,4 +64,86 @@
 .mg5px{
 	margin-left:2px;
 	margin-right: 3px;
+}
+.list-container{
+	width: auto;
+      height: auto;
+      align-content: center;
+}
+.list-container ul{
+	margin-top: 2%;
+	margin-right: 15%;
+	margin-left: 15%;
+}
+.list-container ul li input{
+	
+}
+#inp{
+	 height: 1.5rem;
+	 width: 1.5rem;
+	 background-color: white !important;
+	 border:2px solid grey;
+}
+.date-and-details{
+	display: flex;
+}
+.check-btn{
+	 margin-right: 1.2rem;
+}
+.discription-display{
+	font-size: 1.5rem;
+	font-family: serif;
+	font-weight: 520;
+}
+.work{
+   font-size: 1.2rem;
+   font-family: sans-serif;
+   font-weight: 530;
+   background-color:orange;
+   box-shadow: 0 0 20px lightgrey; 
+   border:2px lightgrey;
+   width: 10rem;
+   height: auto;
+   padding: 10px;
+   text-align: center;
+}
+.list-group-item{
+	display: flex;
+	justify-content: space-between;
+}
+.personal{
+	font-size: 1.2rem;
+   font-family: sans-serif;
+   font-weight: 530;
+   background-color:cyan;
+   box-shadow: 0 0 20px lightgrey; 
+   border:2px lightgrey;
+   width: 10rem;
+   height: auto;
+   padding: 10px;
+   text-align: center;
+}
+.school{
+	font-size: 1.2rem;
+   font-family: sans-serif;
+   font-weight: 530;
+   background-color:green;
+   box-shadow: 0 0 20px lightgrey; 
+   border:2px lightgrey;
+   width: 10rem;
+   height: auto;
+   padding: 10px;
+   text-align: center;
+}
+.home{
+   font-size: 1.2rem;
+   font-family: sans-serif;
+   font-weight: 530;
+   background-color:#7C619D;
+   box-shadow: 0 0 20px lightgrey; 
+   border:2px lightgrey;
+   width: 10rem;
+   height: auto;
+   padding: 10px;
+   text-align: center;
 }
